@@ -12,29 +12,17 @@ Las explicaciones que aparecen bajo cada apartado son orientaciones para ayudaro
 
 # 1. Introducción
 
-En la introducción debéis presentar brevemente el proyecto y permitir que una persona que no lo conozca comprenda qué vais a desarrollar, qué problema pretende resolver y cuál será el alcance general del trabajo.
+La solución se dirige a personas interesadas en la inversión y en los mercados financieros, en especial a quienes se están iniciando. Las plataformas actuales ofrecen gran cantidad de datos, gráficas y noticias, pero su complejidad puede resultar abrumadora para un usuario principiante. Este proyecto parte de la convicción de que ese contenido es valioso también para quien empieza, y por ello no se pretende reducirlo, sino presentarlo de forma más intuitiva, ordenada y comprensible.
 
-Intentad responder, de forma resumida, a cuestiones como:
-
-- ¿En qué consiste el proyecto?
-- ¿Qué necesidad o problema pretende resolver?
-- ¿A qué usuarios, clientes o entidades va dirigido?
-- ¿Qué tipo de solución vais a desarrollar?
-- ¿Cuáles son sus principales funcionalidades?
-- ¿Qué tecnologías o recursos principales vais a utilizar?
-- ¿Cómo se organizará el resto de la memoria?
-
-La introducción debe funcionar como una visión general del documento. No es necesario entrar todavía en detalles técnicos; esos aspectos se desarrollarán en los apartados posteriores.
-
-Como orientación, una extensión aproximada de una página suele ser suficiente.
+He llegado a esta conclusion pensando y investigando por las diferentes Web's que hay en el sector y siempre coincidia con que las paginas estaban todas muy completas con la informacion general de los diferentes sectores pero para los usuarios que sean principiantes puede llegar a ser complicado de entender ya sea por los tecnicismos utilizados o por el simple funcionamiento de la web seleccionada.
 
 ------------------------------------------------------------------------
 
 # 2. Identificación de necesidades del sector productivo
 
-El primer resultado de aprendizaje consiste en **identificar necesidades del sector productivo y relacionarlas con proyectos que puedan satisfacerlas**.
+El objetivo de este proyecto es demostrar que la aplicación no surge de forma aislada, sino como respuesta a una necesidad detectada: la dificultad que encuentran los usuarios principiantes para interpretar la gran cantidad de datos, gráficas y noticias que ofrecen las plataformas actuales.
 
-En esta primera parte debéis demostrar que vuestro proyecto no aparece de forma aislada: existe un contexto profesional, unas empresas, unos usuarios y unas necesidades que justifican la solución que proponéis.
+Aunque estas plataformas están plenamente asentadas y normalizadas en el sector, su complejidad puede resultar un obstáculo para quien se inicia en la inversión. Para ello, se han estudiado las empresas de referencia, su organización y las necesidades de los usuarios, con el fin de justificar una aplicación que mantenga el mismo nivel de información, pero con una presentación más intuitiva y accesible para los usuarios que se quieran iniciar en el sector.
 
 ## 2.1. Empresas del sector por sus características organizativas y por el producto o servicio que ofrecen
 
@@ -42,17 +30,17 @@ Para este apartado de TFG he estado investigando y informandome sobre las empres
 
 Entre este tipo de empresas voy a destacar a 5 ya que me parecen las mas grandes y las mas reconocidas en el sector.
 
-- Investing.com: Referente general informativo de los mercados financieros mundiales, ya que engloba gran partes de los activos mas importantes del mundo.
+- **Investing.com:** referente informativo general de los mercados financieros mundiales, ya que engloba gran parte de los activos más importantes del mundo.
 
-- TradingView: Referencia a base de graficos y analisis para poder visualizar datos financieros en tiempo real y poder ver las fluctuaciones del mercado lo mas actualizadas posibles.
+- **TradingView:** referencia en gráficos y análisis, que permite visualizar datos financieros en tiempo real y seguir las fluctuaciones del mercado con la mayor actualización posible.
 
-- CoinMarketCap: Esta plataforma es la referente mundial en cuanto a datos y seguimiento en el mercado de las criptomonedas ya que te facilita los precios a tiempo real y el acceso a la capitalizacion actual del valor de mercado, tambien tiene su apartado de noticias y informacion influyente para cada una de sus monedas.
+- **CoinMarketCap:** plataforma de referencia mundial en datos y seguimiento del mercado de las criptomonedas. Facilita los precios en tiempo real y el acceso a la capitalización de mercado actual, e incluye un apartado de noticias e información relevante para cada moneda.
 
-- Bloomberg: Empresa conocida por su especialidad en informacion financiera y servicios dirigidos especialmente a profesionales y diferentes organizaciones del sector. La plataforma que se utiliza se llama "Bloomberg Terminal" la cual contiene datos de mercado, noticias influyentes e informacion sobre las empresas y los diferentes activos financieros.
+- **Bloomberg:** empresa conocida por su especialización en información financiera y por sus servicios dirigidos a profesionales y organizaciones del sector. Su plataforma, el "Bloomberg Terminal", reúne datos de mercado, noticias influyentes e información sobre empresas y activos financieros.
 
-- Morningstar: Especializada en informacion, investigacion y analisis de inversiones del mercado. Te facilita datos financieros y diferentes herramientas para poder analizar difentes activos, para mi proyecto la utilizare como referente para la informacion que se mostrará sobre las diferentes empresas y activos de la aplicacion.
+- **Morningstar:** especializada en información, investigación y análisis de inversiones. Ofrece datos financieros y herramientas para analizar distintos activos. En este proyecto se utilizará como referente para la información que se mostrará sobre las empresas y los activos de la aplicación.
 
-
+------------------------------------------------------------------------
 | Empresa | Público objetivo | Tecnologías / recursos relevantes | Características diferenciadoras |
 |---|---|---|---|
 | **Investing.com** | Inversores y traders minoristas, desde principiantes hasta usuarios con más experiencia. | Plataforma web y aplicaciones móviles; datos de mercado, gráficos, alertas, calendarios y herramientas financieras. | Enfoque generalista. Reúne información de numerosos mercados, noticias, gráficos y herramientas de seguimiento en una misma plataforma. |
@@ -62,24 +50,51 @@ Entre este tipo de empresas voy a destacar a 5 ya que me parecen las mas grandes
 | **Morningstar** | Inversores, gestores de patrimonio, profesionales financieros e instituciones. | Bases de datos financieras, APIs, feeds de datos y herramientas de análisis. | Especialización en investigación y análisis de inversiones, con información sobre fondos, empresas, índices y otros productos financieros. |
 
 
-
 ## 2.2. Empresas tipo: estructura organizativa y funciones de los departamentos
 
-Escoged una o varias empresas representativas del sector y explicad cómo podría organizarse una empresa de ese tipo.
+Para este apartado se toma como empresa tipo una plataforma de información financiera de tamaño medio, similar a Investing.com o CoinMarketCap, que ofrece datos de mercado, gráficas y noticias a través de una web y aplicaciones móviles. Se trata de un modelo orientativo: la estructura real varía según el tamaño y el modelo de negocio de cada empresa. En compañías de gran tamaño, como Bloomberg o Morningstar, los departamentos están más especializados y subdivididos, mientras que en empresas pequeñas varias funciones recaen sobre los mismos equipos.
 
-Debéis identificar sus principales departamentos o áreas y explicar qué función desempeña cada uno.
+Una organización de este tipo podría dividirse en las siguientes áreas:
 
-En una empresa de desarrollo de software podrían existir, por ejemplo, áreas de dirección, análisis, desarrollo, diseño, sistemas, calidad, soporte, comercial o administración. No todas las empresas tendrán necesariamente la misma estructura.
+| Departamento | Función principal |
+|---|---||---|---||---|---||---|---||---|---||---|---||---|---||---|---|
+| **Dirección y producto** | Define la estrategia de la empresa, prioriza las funcionalidades y decide qué mercados y servicios se ofrecen. |
+| **Desarrollo (frontend y backend)** | Construye y mantiene la plataforma web, las aplicaciones móviles y la API propia. |
+| **Datos / ingeniería de datos** | Obtiene los datos de bolsas, proveedores y APIs, los valida, los almacena y garantiza que sean fiables y estén actualizados. |
+| **Infraestructura / DevOps** | Mantiene los servidores, el despliegue, la monitorización y la disponibilidad del servicio, aspecto crítico cuando se ofrecen datos en tiempo real. |
+| **Diseño UX/UI** | Diseña las gráficas, los paneles y los flujos de uso para que la información compleja resulte comprensible. |
+| **Calidad (QA)** | Prueba la plataforma, controla los errores y verifica que los datos mostrados sean correctos. |
+| **Contenido y análisis** | Elabora o selecciona noticias, informes y contenidos formativos. |
+| **Legal y cumplimiento** | Se encarga de la protección de datos, las licencias de los datos de terceros y los avisos legales. |
+| **Comercial y marketing** | Capta usuarios y clientes, gestiona suscripciones, publicidad y acuerdos con otras empresas. |
+| **Soporte al cliente** | Atiende las incidencias y dudas de los usuarios. |
+| **Administración y finanzas** | Gestiona la facturación, los costes, las nóminas y los contratos con proveedores. |
 
-Lo importante es relacionar la organización descrita con la realidad del sector de vuestro proyecto.
+En el sector financiero tienen un peso especial los departamentos de **datos** y de **legal y cumplimiento**, porque el valor de la plataforma depende de que la información sea fiable y de que se haya obtenido con la licencia adecuada. En un proveedor de información de mercados, un error en un precio o el uso de datos sin licencia afecta directamente a la credibilidad y a la viabilidad del negocio.
+
 
 ## 2.3. Necesidades más demandadas a las empresas
 
-A partir de la investigación anterior, identificad qué necesidades parecen demandar con mayor frecuencia los clientes o usuarios del sector.
+------------------------------------------------------------------------
+**1. Información centralizada de distintos mercados.**
+Las plataformas estudiadas se reparten el mercado por especialidades: Investing.com ofrece una visión general, TradingView se centra en el análisis gráfico, CoinMarketCap en las criptomonedas y Morningstar en la investigación de inversiones. Quien se interesa por varios tipos de activos debe consultar varias plataformas, cada una con su propia interfaz, lo que genera la necesidad de un único punto de acceso a la información de bolsa y criptomonedas.
 
-Pensad en problemas reales que puedan resolverse mediante software: automatización de procesos, gestión de información, comunicación, comercio electrónico, educación, análisis de datos, movilidad, seguridad, entretenimiento, accesibilidad, etc.
+**2. Datos fiables y actualizados.**
+Todas las empresas analizadas basan su propuesta de valor en ofrecer datos de mercado actualizados, y TradingView y CoinMarketCap lo destacan especialmente. Esta prioridad se refleja en su estructura interna: los departamentos de datos, infraestructura y calidad existen para que la información sea correcta y esté siempre disponible. Un dato desactualizado o erróneo pierde su utilidad.
 
-No basta con afirmar que una necesidad existe. Siempre que sea posible, justificad por qué la consideráis relevante a partir de vuestro análisis del sector.
+**3. Visualización clara y comprensible.**
+La gráfica es la forma habitual de interpretar la evolución de un activo, y las plataformas la sitúan como elemento central de sus fichas. Sin embargo, el análisis muestra que las más completas (Bloomberg, TradingView, Morningstar) están orientadas a perfiles con experiencia, y que incluso las generalistas, como Investing.com, reúnen tal cantidad de herramientas que pueden resultar abrumadoras para un principiante. La necesidad no es tener menos información, sino una mejor organización y presentación de la misma.
+
+**4. Contexto y noticias relevantes sobre cada activo.**
+CoinMarketCap incluye noticias e información para cada moneda, e Investing.com y Bloomberg combinan datos con contenido informativo, para lo cual cuentan con un área de contenido y análisis. El usuario no solo quiere ver un precio, sino entender qué hay detrás de un movimiento del mercado.
+
+**5. Acceso desde cualquier dispositivo.**
+Las plataformas analizadas ofrecen versión web y aplicaciones móviles, y en algunos casos también de escritorio. El usuario espera consultar los mercados indistintamente desde el ordenador o el móvil, por lo que la experiencia debe adaptarse a distintos tamaños de pantalla.
+
+Del análisis se deduce una carencia entre dos tipos de plataformas: las profesionales, completas pero complejas, y las generalistas, más accesibles pero dispersas por especialidades.
+Falta una plataforma que unifique bolsa y criptomonedas, mantenga el nivel de información de las grandes y la presente de forma que un principiante pueda entenderla.
+
+------------------------------------------------------------------------
 
 ## 2.4. Oportunidades de negocio previsibles en el sector
 
