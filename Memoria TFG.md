@@ -14,7 +14,7 @@ Las explicaciones que aparecen bajo cada apartado son orientaciones para ayudaro
 
 La solución se dirige a personas interesadas en la inversión y en los mercados financieros, en especial a quienes se están iniciando. Las plataformas actuales ofrecen gran cantidad de datos, gráficas y noticias, pero su complejidad puede resultar abrumadora para un usuario principiante. Este proyecto parte de la convicción de que ese contenido es valioso también para quien empieza, y por ello no se pretende reducirlo, sino presentarlo de forma más intuitiva, ordenada y comprensible.
 
-He llegado a esta conclusion pensando y investigando por las diferentes Web's que hay en el sector y siempre coincidia con que las paginas estaban todas muy completas con la informacion general de los diferentes sectores pero para los usuarios que sean principiantes puede llegar a ser complicado de entender ya sea por los tecnicismos utilizados o por el simple funcionamiento de la web seleccionada.
+Se ha llegado a esta conclusión tras analizar e investigar las diferentes webs que existen en el sector, en las que se ha observado de forma constante que las páginas están muy completas en cuanto a la información general de los distintos sectores, pero que para los usuarios principiantes pueden resultar complicadas de entender, ya sea por los tecnicismos utilizados o por el simple funcionamiento de la web seleccionada.
 
 ------------------------------------------------------------------------
 
@@ -26,9 +26,9 @@ Aunque estas plataformas están plenamente asentadas y normalizadas en el sector
 
 ## 2.1. Empresas del sector por sus características organizativas y por el producto o servicio que ofrecen
 
-Para este apartado de TFG he estado investigando y informandome sobre las empresas del sector las cuales son las dominantes en cada aspecto de lo que quiero desarrollar como proyecto.
+Para este apartado de TFG se han investigado las empresas del sector que son dominantes en cada aspecto de lo que se pretende desarrollar como proyecto.
 
-Entre este tipo de empresas voy a destacar a 5 ya que me parecen las mas grandes y las mas reconocidas en el sector.
+Entre este tipo de empresas se destacan 5, ya que se consideran las más grandes y las más reconocidas del sector.
 
 - **Investing.com:** referente informativo general de los mercados financieros mundiales, ya que engloba gran parte de los activos más importantes del mundo.
 
